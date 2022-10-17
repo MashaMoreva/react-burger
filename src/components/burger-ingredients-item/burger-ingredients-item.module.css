@@ -1,0 +1,18 @@
+.item {
+    display: grid;
+    justify-items: center;
+    position: relative;   
+}
+
+.price {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    align-items: center;
+    gap: 9px;
+}
+
+.subtitle {
+    min-height: 48px;
+    text-align: center;
+}
+
