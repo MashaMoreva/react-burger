@@ -1,0 +1,31 @@
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-rows: repeat(3, 64px);
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.link:hover {
+    opacity: .6;
+}
+
+.link_active {
+    color: #F2F2F3;
+}
+
+.button {
+    text-align: start;
+    background: transparent;
+    border: none;
+}
+
+.button:hover {
+    opacity: .6;
+}

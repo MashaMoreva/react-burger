@@ -1,0 +1,8 @@
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    text-align: center;
+    max-width: 480px;
+}
