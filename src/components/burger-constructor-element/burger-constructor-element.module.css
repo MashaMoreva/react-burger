@@ -1,0 +1,6 @@
+.constructor_element {
+    display: grid;
+    grid-template-columns: max-content 536px;
+    gap: 8px;
+    align-items: center;
+}

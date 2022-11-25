@@ -1,0 +1,5 @@
+.burger_ingredients {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
