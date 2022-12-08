@@ -1,0 +1,20 @@
+.scroll {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 584px;
+    grid-auto-rows: max-content;
+    height: 664px;
+    overflow-y: auto;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 8px;
+    background-color: #2F2F37;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background-color: #8585AD;
+}

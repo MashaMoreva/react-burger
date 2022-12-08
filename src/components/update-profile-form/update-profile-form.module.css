@@ -1,0 +1,13 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.choice {
+    display: flex;
+    justify-content: end;
+    width: 480px;
+}

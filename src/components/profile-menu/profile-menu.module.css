@@ -1,0 +1,38 @@
+.menu {
+    display: grid;
+    grid-template-rows: min-content min-content;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 120px 0 0 0;
+    display: grid;
+    grid-template-columns: 320px;
+    grid-template-rows: repeat(3, 64px);
+    margin-right: 60px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.link:hover {
+    opacity: .6;
+}
+
+.link_active {
+    color: #F2F2F3;
+}
+
+.button {
+    text-align: start;
+    background: transparent;
+    border: none;
+}
+
+.button:hover {
+    opacity: .6;
+}

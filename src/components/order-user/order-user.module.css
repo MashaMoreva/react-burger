@@ -1,0 +1,85 @@
+.order_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 640px;
+    margin: 120px auto 0 auto;
+}
+
+.scroll {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 608px;
+    grid-auto-rows: min-content;
+    height: 222px;
+    overflow-y: auto;
+    list-style-type: none;
+    padding: 0 24px 0 0;
+    margin: 24px 0 0 0;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 8px;
+    background-color: #2F2F37;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background-color: #8585AD;
+}
+
+.total_price {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 64px 414px 98px;
+    align-items: center;
+    gap: 16px;
+}
+
+.price {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+}
+
+.image {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: linear-gradient(black, black) padding-box,
+        linear-gradient(to right, rgba(76, 76, 255, 1), rgba(128, 26, 178, 1)) border-box;
+    border: 2px solid transparent;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.title {
+    width: 100%;
+    text-align: start;
+}
+
+.status {
+    width: 100%;
+    text-align: start;
+    color: #00CCCC
+}
+
+.text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
