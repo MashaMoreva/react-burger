@@ -1,0 +1,12 @@
+.order_registration {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-template-rows: 64px;
+    gap: 42px;
+    align-items: center;
+}
+
+.order_cost {
+    display: flex;
+    align-items: center;
+}

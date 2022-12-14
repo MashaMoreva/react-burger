@@ -1,0 +1,36 @@
+.orders {
+    display: grid;
+    grid-template-rows: repeat(3, max-content);
+    gap: 60px;
+}
+
+.orders_status {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(2, 272px);
+}
+
+.title {
+    display: grid;
+    grid-template-rows: 53px auto;
+    
+}
+
+.list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: grid;
+    gap: 8px;
+    grid-template-rows: repeat(10, 24px);
+    grid-auto-flow: column;
+    justify-content: start;
+}
+
+.counter {
+    text-shadow: 0 0 30px #4c4cff; 
+}
+
+.done {
+    color: #00CCCC;
+}
